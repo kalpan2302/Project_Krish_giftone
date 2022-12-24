@@ -1,0 +1,12 @@
+Nav - logo - Home                 Our Products >     
+	     
+             Welcome...           p1
+             Discription          p2
+
+             AD Banner
+             
+             Featured Product
+
+
+Footer       Contact us
+             Credential
