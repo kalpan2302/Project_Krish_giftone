@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Giftone | Home</title>
+    <link rel="shortcut icon" href="img/KGLOGO white PNG.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+
+
+    <!-- fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Sans&family=Fira+Sans&family=Lato&family=Playfair+Display&family=Roboto&family=Source+Code+Pro&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Boogaloo&family=Bree+Serif&family=Lobster+Two:ital@1&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+
+<body>
+    <div class="navbark" id="nav">
+        <div class="logok">
+            <img class="logo-img" src="img/KGLOGO white PNG.png" alt="krish giftone">
+        </div>
+        <div class="menup" id="menu-h">
+            <ul class=" navlist v-class">
+                <li><a class="a" href="index.html">Home</a></li>
+                <li class="dp">Our Products <i class="bi bi-caret-down-fill"></i>
+                    <div class="down-menup">
+                        <ul>
+                            <a href="pcg.html">
+                                <li>Photo Coustmised Gift </li>
+                            </a>
+                            <a href="ncg.html">
+                                <li>Name Coustmised Gift</li>
+                            </a>
+                            <a href="watch.html">
+                                <li>Watch</li>
+                            </a>
+                            <a href="goggles.html">
+                                <li>Googles</li>
+                            </a>
+                            <a href="bag.html">
+                                <li>Bag</li>
+                            </a>
+                            <a href="other.html">
+                                <li>Others</li>
+                            </a>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="a" href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="hamburger" >
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <section class="heading">
+        <div class="w-heading">
+            <i class="bi bi-watch"></i><span>Watch</span>
+        </div>
+        <hr>
+        <div class="filter">
+            <div class="bt-w">
+                <button class="btn-w" data-filter="all">All</button>
+                <button class="btn-w" data-filter="men">Mens</button>
+                <button class="btn-w" data-filter="women">Womens</button>
+                <button class="btn-w" data-filter="smart">Smart Watch</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sfp">
+        <div class="featured">
+            <div class="fp">
+                <div class="f-container men">
+                    <img src="img/m1.jpeg" alt="">
+                    <div class="des">
+                        <div class="name"><span>Mobile Case</span>
+                        </div>
+                        <p class="bp">Base price :<span class="bp" id="bpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        <div class="delivery">
+                            <label for="location">Select delivery location :</label>
+                            <select name="location"  id="l1" class="loc" onchange="test()" aria-placeholder="select">
+                                <!-- <option class="option-1" value="0" aria-placeholder="select Location">Select delivery location</option> -->
+                                <option value="Surat">Surat</option>
+                                <option value="Inside Gujarat">Gujarat</option>
+                                <option value="Other in India">Other State</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="tp-contain">
+                            <p class="tp">Total price :<span class="tp" id="tpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        </div>
+                    </div>
+                    <div class="bt">
+                        <div class="btn">
+                            <!-- <button>Buy from <i class="bi bi-whatsapp"></i></button> -->
+                            <button class="buy" id="myButton">Buy From<i class="bi bi-whatsapp"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="f-container women" >
+                    <img src="img/m1.jpeg" alt="">
+                    <div class="des">
+                        <div class="name"><span>Mobile Case</span>
+                        </div>
+                        <p class="bp">Base price :<span class="bp" id="bpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        <div class="delivery">
+                            <label for="location">Select delivery location :</label>
+                            <select name="location"  id="l1" class="loc" onchange="test()" aria-placeholder="select">
+                                <!-- <option class="option-1" value="0" aria-placeholder="select Location">Select delivery location</option> -->
+                                <option value="Surat">Surat</option>
+                                <option value="Inside Gujarat">Gujarat</option>
+                                <option value="Other in India">Other State</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="tp-contain">
+                            <p class="tp">Total price :<span class="tp" id="tpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        </div>
+                    </div>
+                    <div class="bt">
+                        <div class="btn">
+                            <!-- <button>Buy from <i class="bi bi-whatsapp"></i></button> -->
+                            <button class="buy" id="myButton">Buy From<i class="bi bi-whatsapp"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="f-container smart">
+                    <img src="img/m1.jpeg" alt="">
+                    <div class="des">
+                        <div class="name"><span>Mobile Case</span>
+                        </div>
+                        <p class="bp">Base price :<span class="bp" id="bpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        <div class="delivery">
+                            <label for="location">Select delivery location :</label>
+                            <select name="location"  id="l1" class="loc" onchange="test()" aria-placeholder="select">
+                                <!-- <option class="option-1" value="0" aria-placeholder="select Location">Select delivery location</option> -->
+                                <option value="Surat">Surat</option>
+                                <option value="Inside Gujarat">Gujarat</option>
+                                <option value="Other in India">Other State</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="tp-contain">
+                            <p class="tp">Total price :<span class="tp" id="tpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        </div>
+                    </div>
+                    <div class="bt">
+                        <div class="btn">
+                            <!-- <button>Buy from <i class="bi bi-whatsapp"></i></button> -->
+                            <button class="buy" id="myButton">Buy From<i class="bi bi-whatsapp"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="f-container men">
+                    <img src="img/m1.jpeg" alt="">
+                    <div class="des">
+                        <div class="name"><span>Mobile Case</span>
+                        </div>
+                        <p class="bp">Base price :<span class="bp" id="bpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        <div class="delivery">
+                            <label for="location">Select delivery location :</label>
+                            <select name="location"  id="l1" class="loc" onchange="test()" aria-placeholder="select">
+                                <!-- <option class="option-1" value="0" aria-placeholder="select Location">Select delivery location</option> -->
+                                <option value="Surat">Surat</option>
+                                <option value="Inside Gujarat">Gujarat</option>
+                                <option value="Other in India">Other State</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="tp-contain">
+                            <p class="tp">Total price :<span class="tp" id="tpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        </div>
+                    </div>
+                    <div class="bt">
+                        <div class="btn">
+                            <!-- <button>Buy from <i class="bi bi-whatsapp"></i></button> -->
+                            <button class="buy" id="myButton">Buy From<i class="bi bi-whatsapp"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="f-container smart">
+                    <img src="img/m1.jpeg" alt="">
+                    <div class="des">
+                        <div class="name"><span>Mobile Case</span>
+                        </div>
+                        <p class="bp">Base price :<span class="bp" id="bpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        <div class="delivery">
+                            <label for="location">Select delivery location :</label>
+                            <select name="location"  id="l1" class="loc" onchange="test()" aria-placeholder="select">
+                                <!-- <option class="option-1" value="0" aria-placeholder="select Location">Select delivery location</option> -->
+                                <option value="Surat">Surat</option>
+                                <option value="Inside Gujarat">Gujarat</option>
+                                <option value="Other in India">Other State</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="tp-contain">
+                            <p class="tp">Total price :<span class="tp" id="tpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        </div>
+                    </div>
+                    <div class="bt">
+                        <div class="btn">
+                            <!-- <button>Buy from <i class="bi bi-whatsapp"></i></button> -->
+                            <button class="buy" id="myButton">Buy From<i class="bi bi-whatsapp"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="f-container men">
+                    <img src="img/m1.jpeg" alt="">
+                    <div class="des">
+                        <div class="name"><span>Mobile Case</span>
+                        </div>
+                        <p class="bp">Base price :<span class="bp" id="bpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        <div class="delivery">
+                            <label for="location">Select delivery location :</label>
+                            <select name="location"  id="l1" class="loc" onchange="test()" aria-placeholder="select">
+                                <!-- <option class="option-1" value="0" aria-placeholder="select Location">Select delivery location</option> -->
+                                <option value="Surat">Surat</option>
+                                <option value="Inside Gujarat">Gujarat</option>
+                                <option value="Other in India">Other State</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="tp-contain">
+                            <p class="tp">Total price :<span class="tp" id="tpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        </div>
+                    </div>
+                    <div class="bt">
+                        <div class="btn">
+                            <!-- <button>Buy from <i class="bi bi-whatsapp"></i></button> -->
+                            <button class="buy" id="myButton">Buy From<i class="bi bi-whatsapp"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="f-container smart">
+                    <img src="img/m1.jpeg" alt="">
+                    <div class="des">
+                        <div class="name"><span>Mobile Case</span>
+                        </div>
+                        <p class="bp">Base price :<span class="bp" id="bpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        <div class="delivery">
+                            <label for="location">Select delivery location :</label>
+                            <select name="location"  id="l1" class="loc" onchange="test()" aria-placeholder="select">
+                                <!-- <option class="option-1" value="0" aria-placeholder="select Location">Select delivery location</option> -->
+                                <option value="Surat">Surat</option>
+                                <option value="Inside Gujarat">Gujarat</option>
+                                <option value="Other in India">Other State</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="tp-contain">
+                            <p class="tp">Total price :<span class="tp" id="tpi">55</span><i class="bi bi-currency-rupee"></i></p>
+                        </div>
+                    </div>
+                    <div class="bt">
+                        <div class="btn">
+                            <!-- <button>Buy from <i class="bi bi-whatsapp"></i></button> -->
+                            <button class="buy" id="myButton">Buy From<i class="bi bi-whatsapp"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- <footer>
+        <div class="containerf">
+            <div class="rowf">
+                <div class="footer-colm">
+                    <h1 id="achiv">Achivments</h1>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat excepturi distinctio possimus
+                        assumenda praesentium dignissimos nulla incidunt unde corporis sit minus beatae id earum, sequi
+                        quia alias, aperiam laborum similique? Soluta repellendus quasi aut?</p>
+                </div>
+
+                <div class="footer-colm">
+                    <h1>contact us</h1>
+                    <span><i class="bi bi-telephone-fill"></i>(+91)8866392308</span>
+                    <span><i class="bi bi-envelope"></i>XYZ@gmail.com</span>
+                    <span><i class="bi bi-box-arrow-up-right"></i>www.krishgiftone.com</span>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <footer>
+        <div class="footer-copy">
+            CopyRight &copy; Krish Giftone All Rights Reserved!! <br>
+            Powerd by : Kalpan Bariya
+        </div>
+    </footer>
+
+        <script src="script2.js"></script>
+</body>
+</html>
