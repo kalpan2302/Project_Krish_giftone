@@ -1,6 +1,6 @@
+
+
 // navbar hamburger 
-
-
 
 burger = document.querySelector(".hamburger")
 navlist = document.querySelector(".navlist")
@@ -26,7 +26,7 @@ dp.addEventListener('click',()=>{
 
 
 var slideIndex = 0;
-showSlides();
+
 
 function showSlides() {
   let i;
@@ -45,11 +45,22 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 
+showSlides();
 
 
 
 
 // cart price
+
+// function price(){
+//   alert("Delivery charges : \n  Surat - 30/- \n Gujrat - 40/- \n Other state - 50/-")
+// }
+
+
+
+
+
+
 
 function test(){
 
@@ -86,5 +97,6 @@ console.log(basep)
         total.innerHTML=tp
     }
 }
+
 
 

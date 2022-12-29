@@ -28,7 +28,7 @@
     /* font-family: 'Fira Sans', sans-serif; */
     font-family: 'Lato', sans-serif;
     /* font-family: 'DM Sans', sans-serif; */
-    font-style:italic;
+    /* font-style:italic; */
 }
 /* .w-heading span ::before{
     content: '';
@@ -73,7 +73,7 @@
     box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
 }
 
-.bi-watch{
+.bi-watch , .bi-bag-check-fill, .bi-sunglasses, .bi-gift-fill, .bi-basket{
     font-size: 50px;
 }
 
@@ -98,5 +98,21 @@
     }
     .filter{
         padding: 0px 10px;
+    }
+
+    .w-heading span{
+        font-size: 25px;
+    }
+    .bi-watch , .bi-bag-check-fill, .bi-sunglasses, .bi-gift-fill, .bi-basket{
+        font-size: 25px;
+    }
+}
+
+@media  only screen and (max-width:330px){
+    .w-heading span{
+        font-size: 20px;
+    }
+    .bi-watch , .bi-bag-check-fill, .bi-sunglasses, .bi-gift-fill, .bi-basket{
+        font-size: 20px;
     }
 }
